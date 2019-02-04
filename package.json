@@ -1,0 +1,22 @@
+{
+  "name": "online-radio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-static"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burymm/online-radio.git"
+  },
+  "author": "burymm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/burymm/online-radio/issues"
+  },
+  "homepage": "https://github.com/burymm/online-radio#readme",
+  "devDependencies": {
+    "http-static": "^0.1.1"
+  }
+}
