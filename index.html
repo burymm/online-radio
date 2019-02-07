@@ -6,9 +6,29 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link href="styles.css" rel="stylesheet">
 </head>
 <body>
+<div class="player-wrapper">
+    <div class="play" id="playPauseContainer">
+        <img src="//hosted.muses.org/2.4.4/ffmp3-alberto/play.png" class="play-img" id="playBtn">
+        <img src="http://hosted.muses.org/2.4.4/ffmp3-alberto/playclick.png" class="play-click-img" id="playClickBtn">
+        <img src="images/pause.png" class="pause-img" id="pauseBtn">
+        <img src="images/pauseclick.png" class="pause-click-img" id="pauseClickBtn">
+        <img src="//hosted.muses.org/2.4.4/ffmp3-alberto/off.png" class="off-img" id="offBtn">
+        <img src="http://hosted.muses.org/2.4.4/ffmp3-alberto/on.png" class="on-img" id="onBtn">
+    </div>
 
+    <div class="process">
+        <div class="radio-title"></div>
+    </div>
+
+    <div class="volume">
+        <img src="images/volume_low.png" class="minus-img" id="minus">
+        <img src="images/volume_high.png" class="plus-img" id="plus">
+    </div>
+    <!--<img src="//hosted.muses.org/2.4.4/ffmp3-alberto/holder.png" class="holder-img">-->
+</div>
 <!-- BEGINS: AUTO-GENERATED MUSES RADIO PLAYER CODE -->
 <script type="text/javascript" src="https://hosted.muses.org/mrp.js"></script>
 <script type="text/javascript">
@@ -27,6 +47,7 @@
     'height':95
   });
 </script>
+<script type="text/javascript" src="script.js"></script>
 <!-- ENDS: AUTO-GENERATED MUSES RADIO PLAYER CODE -->
 </body>
 </html>
